@@ -56,7 +56,7 @@ FALICORNIA_ATTACK 250H 50E 20AT 15SG
 ## Code Execution
 * Make sure you have Java version 11 (OpenJDK 11 or Java SE 11) atleast installed in your computer. 
 * Input file is in the directory *The Two Planets*. The input file is named *input.txt*. Each input must be entered in a new line using text editor and must be saved before executing the program.
-* Change the path of *input.txt* in the code to the absolute path to the location of *The Two Planets* in your computer.
+* Change the path of *input.txt* in the parameter of *File* constructor to the absolute path to the location of *The Two Planets* in your computer.
 ```java
 File file = new File("<your absolute path>\\The Two Planets\\input.txt");
 ```
